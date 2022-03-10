@@ -27,10 +27,7 @@ function App() {
                     <Route path="/register" element={<RegisterPage/>}/>
                     <Route path="/login" element={<LoginPage/>}/>
                 </Routes>
-                <Body/>
-                <Review/>
-                <Pricing/>
-                <Footer/>
+
             </ChakraProvider>
         </Router>
 

@@ -8,6 +8,11 @@ import {
     Icon,
     IconProps,
 } from '@chakra-ui/react';
+import Body from "./Body";
+import Review from "./Review";
+import Pricing from "./Pricing";
+import Footer from "../../Component/Footer";
+import React from "react";
 
 export default function Homepage() {
     return (
@@ -51,8 +56,14 @@ export default function Homepage() {
                     />
                 </Flex>
             </Stack>
+                <Body/>
+                <Review/>
+                <Pricing/>
+                <Footer/>
         </Container>
+
     );
+
 }
 
 export const Illustration = (props: IconProps) => {
