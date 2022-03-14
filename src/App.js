@@ -13,6 +13,8 @@ import LoginPage from "./Pages/LoginPage";
 import Body from "./Pages/Content/Body";
 import Review from "./Pages/Content/Review";
 import Pricing from "./Pages/Content/Pricing";
+import JoinUs from './Pages/Content/JoinUs';
+import TeamList from './Pages/Content/TeamList';
 
 function App() {
     return (
@@ -26,6 +28,8 @@ function App() {
                     <Route path="/" element={<HomePage/>}/>
                     <Route path="/register" element={<RegisterPage/>}/>
                     <Route path="/login" element={<LoginPage/>}/>
+                    <Route path="/joinus" element={<JoinUs/>}/>
+                    <Route path="/team" element={<TeamList/>}/>
                 </Routes>
 
             </ChakraProvider>

@@ -262,38 +262,35 @@ const NAV_ITEMS: Array<NavItem> = [
         label: 'Inspiration',
         children: [
             {
-                label: 'Explore Design Work',
-                subLabel: 'Trending Design to inspire you',
-                href: '#',
+                label: 'The Team & Skills',
+                subLabel: 'Explore our team members',
+                href: 'teamlist',
             },
             {
-                label: 'New & Noteworthy',
-                subLabel: 'Up-and-coming Designers',
-                href: '#',
+                label: 'Projects',
+                subLabel: 'Explore our latest projects',
+                href: 'projectlist',
             },
         ],
     },
     {
-        label: 'Find Work',
+        label: 'The Team',
         children: [
             {
-                label: 'Job Board',
-                subLabel: 'Find your dream design job',
-                href: '#',
+                label: 'Hiring',
+                subLabel: 'Were hiring these positions',
+                href: 'joblist',
             },
             {
-                label: 'Freelance Projects',
-                subLabel: 'An exclusive list for contract work',
-                href: '#',
+                label: 'Join The Team',
+                subLabel: 'Become part of our team',
+                href: 'joinus',
             },
         ],
     },
+
     {
-        label: 'Learn Programming',
-        href: '#',
-    },
-    {
-        label: 'Hire Programmers',
-        href: '#',
+        label: 'Hire Us',
+        href: 'hireus',
     },
 ];
