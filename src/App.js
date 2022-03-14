@@ -15,6 +15,10 @@ import Review from "./Pages/Content/Review";
 import Pricing from "./Pages/Content/Pricing";
 import JoinUs from './Pages/Content/JoinUs';
 import TeamList from './Pages/Content/TeamList';
+import HireUs   from './Pages/Content/HireUs';
+import ProjectList from './Pages/Content/ProjectList';
+import JobList from './Pages/Content/JobList';
+
 
 function App() {
     return (
@@ -29,7 +33,10 @@ function App() {
                     <Route path="/register" element={<RegisterPage/>}/>
                     <Route path="/login" element={<LoginPage/>}/>
                     <Route path="/joinus" element={<JoinUs/>}/>
-                    <Route path="/team" element={<TeamList/>}/>
+                    <Route path="/teamlist" element={<TeamList/>}/>
+                    <Route path="/hireus" element={<HireUs/>}/>
+                    <Route path="/projectlist" element={<ProjectList/>}/>
+                    <Route path="/joblist" element={<JobList/>}/>
                 </Routes>
 
             </ChakraProvider>
