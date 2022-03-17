@@ -51,12 +51,11 @@ export default function Body() {
                         p={2}
                         alignSelf={'flex-start'}
                         rounded={'md'}>
-                        Our Story
+                        Our Services
                     </Text>
-                    <Heading>A digital Product design agency</Heading>
+                    <Heading>Bring That Idea To Life</Heading>
                     <Text color={'gray.500'} fontSize={'lg'}>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore
+                        We are a small team of designers and developers that will build your a modern web app.
                     </Text>
                     <Stack
                         spacing={4}
@@ -68,17 +67,17 @@ export default function Body() {
                         <Feature
 
                             iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-                            text={'Business Planning'}
+                            text={'Staff Augmentation'}
                         />
                         <Feature
 
                             iconBg={useColorModeValue('green.100', 'green.900')}
-                            text={'Financial Planning'}
+                            text={'Website/PWA Development'}
                         />
                         <Feature
 
                             iconBg={useColorModeValue('purple.100', 'purple.900')}
-                            text={'Market Analysis'}
+                            text={'Consultation'}
                         />
                     </Stack>
                 </Stack>

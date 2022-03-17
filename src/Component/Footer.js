@@ -46,21 +46,7 @@ export default function Footer() {
             <Container as={Stack} maxW={'6xl'} py={10}>
                 <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
                     <Stack align={'flex-start'}>
-                        <ListHeader>Product</ListHeader>
-                        <Link href={'#'}>Overview</Link>
-                        <Stack direction={'row'} align={'center'} spacing={2}>
-                            <Link href={'#'}>Features</Link>
-                            <Tag
-                                size={'sm'}
-                                bg={useColorModeValue('green.300', 'green.800')}
-                                ml={2}
-                                color={'white'}>
-                                New
-                            </Tag>
-                        </Stack>
-                        <Link href={'#'}>Tutorials</Link>
-                        <Link href={'#'}>Pricing</Link>
-                        <Link href={'#'}>Releases</Link>
+
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Company</ListHeader>
@@ -68,7 +54,7 @@ export default function Footer() {
                         <Link href={'#'}>Press</Link>
                         <Link href={'#'}>Careers</Link>
                         <Link href={'#'}>Contact Us</Link>
-                        <Link href={'#'}>Partners</Link>
+
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Legal</ListHeader>
@@ -80,11 +66,11 @@ export default function Footer() {
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Follow Us</ListHeader>
-                        <Link href={'#'}>Facebook</Link>
-                        <Link href={'#'}>Twitter</Link>
-                        <Link href={'#'}>Dribbble</Link>
-                        <Link href={'#'}>Instagram</Link>
-                        <Link href={'#'}>LinkedIn</Link>
+                        <Link href={'https://www.facebook.com/'}>Facebook</Link>
+                        <Link href={'https://twitter.com/home'}>Twitter</Link>
+                        <Link href={'https://dribbble.com/'}>Dribbble</Link>
+                        <Link href={'https://www.instagram.com/'}>Instagram</Link>
+                        <Link href={'https://www.linkedin.com/'}>LinkedIn</Link>
                     </Stack>
                 </SimpleGrid>
             </Container>

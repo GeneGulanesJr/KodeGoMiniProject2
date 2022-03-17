@@ -259,7 +259,12 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
     {
-        label: 'Inspiration',
+        label: 'Home',
+        href: '/',
+    },
+    {
+
+        label: 'About Us',
         children: [
             {
                 label: 'The Team & Skills',
@@ -274,7 +279,7 @@ const NAV_ITEMS: Array<NavItem> = [
         ],
     },
     {
-        label: 'The Team',
+        label: 'Opening',
         children: [
             {
                 label: 'Hiring',
@@ -289,8 +294,4 @@ const NAV_ITEMS: Array<NavItem> = [
         ],
     },
 
-    {
-        label: 'Hire Us',
-        href: 'hireus',
-    },
 ];

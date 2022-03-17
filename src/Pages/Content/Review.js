@@ -14,7 +14,7 @@ const testimonials = [
         name: 'Brandon P.',
         role: 'Chief Marketing Officer',
         content:
-            'It really saves me time and effort. It is exactly what our business has been lacking. EEZY is the most valuable business resource we have EVER purchased. After using EEZY my business skyrocketed!',
+            'It really saves me time and effort. It is exactly what our business has been lacking. My Business lacked an ecommerce site and after having my website built my business skyrocketed!',
         avatar:
             'https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80',
     },
@@ -165,7 +165,7 @@ export default function Review() {
                     <chakra.strong color={useColorModeValue('gray.700', 'gray.50')}>
                         150,000+
                     </chakra.strong>{' '}
-                    influencers use EEZY to manage their social media content!
+                    Businesses hire us to build their modern websites!
                 </chakra.h2>
             </Box>
             <SimpleGrid

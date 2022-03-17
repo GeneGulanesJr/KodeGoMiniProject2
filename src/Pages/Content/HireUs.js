@@ -9,7 +9,6 @@ import {
   Input,
   InputGroup,
   InputLeftElement,
-  Link,
   Stack,
   Textarea,
   Tooltip,
@@ -48,7 +47,7 @@ export default function HireUs() {
         backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
         backgroundAttachment: 'fixed',
       }}
-      id="contact">
+      id="contact" >
       <Box
         borderRadius="lg"
         m={{ base: 5, md: 16, lg: 10 }}
@@ -89,48 +88,7 @@ export default function HireUs() {
                   />
                 </Tooltip>
 
-                {/*<Link href="#">*/}
-                {/*  <IconButton*/}
-                {/*    aria-label="github"*/}
-                {/*    variant="ghost"*/}
-                {/*    size="lg"*/}
-                {/*    fontSize="3xl"*/}
-                {/*    icon={<BsGithub />}*/}
-                {/*    _hover={{*/}
-                {/*      bg: 'blue.500',*/}
-                {/*      color: useColorModeValue('white', 'gray.700'),*/}
-                {/*    }}*/}
-                {/*    isRound*/}
-                {/*  />*/}
-                {/*</Link>*/}
 
-                {/*<Link href="#">*/}
-                {/*  <IconButton*/}
-                {/*    aria-label="twitter"*/}
-                {/*    variant="ghost"*/}
-                {/*    size="lg"*/}
-                {/*    icon={<BsTwitter size="28px" />}*/}
-                {/*    _hover={{*/}
-                {/*      bg: 'blue.500',*/}
-                {/*      color: useColorModeValue('white', 'gray.700'),*/}
-                {/*    }}*/}
-                {/*    isRound*/}
-                {/*  />*/}
-                {/*</Link>*/}
-
-                {/*<Link href="#">*/}
-                {/*  <IconButton*/}
-                {/*    aria-label="linkedin"*/}
-                {/*    variant="ghost"*/}
-                {/*    size="lg"*/}
-                {/*    icon={<BsLinkedin size="28px" />}*/}
-                {/*    _hover={{*/}
-                {/*      bg: 'blue.500',*/}
-                {/*      color: useColorModeValue('white', 'gray.700'),*/}
-                {/*    }}*/}
-                {/*    isRound*/}
-                {/*  />*/}
-                {/*</Link>*/}
               </Stack>
 
               <Box
