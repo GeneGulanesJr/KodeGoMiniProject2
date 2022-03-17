@@ -58,11 +58,11 @@ export default function Footer() {
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Legal</ListHeader>
-                        <Link href={'#'}>Cookies Policy</Link>
-                        <Link href={'#'}>Privacy Policy</Link>
-                        <Link href={'#'}>Terms of Service</Link>
-                        <Link href={'#'}>Law Enforcement</Link>
-                        <Link href={'#'}>Status</Link>
+                        <Link href={'https://ec.europa.eu/info/cookies_en'}>Cookies Policy</Link>
+                        <Link href={'https://www.privacypolicies.com/blog/privacy-policy-template/'}>Privacy Policy</Link>
+                        <Link href={'https://tosdr.org/'}>Terms of Service</Link>
+
+                        <Link href={'https://www.isitdownrightnow.com/'}>Status</Link>
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Follow Us</ListHeader>
