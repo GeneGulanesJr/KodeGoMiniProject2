@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49be1d98-6859-4120-85da-e297aecd3473" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Component/Carousell.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Content/HireUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Content/HireUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Content/JobList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Content/JobList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Content/JoinUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Content/JoinUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Content/Pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Content/Pricing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Content/ProjectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Content/ProjectList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Content/Review.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Content/Review.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,8 @@
       <workItem from="1647334373783" duration="1204000" />
       <workItem from="1647397461597" duration="10232000" />
       <workItem from="1647494731506" duration="8647000" />
-      <workItem from="1647524633270" duration="6344000" />
+      <workItem from="1647524633270" duration="6369000" />
+      <workItem from="1647562315815" duration="7862000" />
     </task>
     <servers />
   </component>

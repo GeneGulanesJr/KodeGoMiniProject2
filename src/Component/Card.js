@@ -12,7 +12,13 @@ import {
 } from '@chakra-ui/react';
 
 export default function ProjectCard(props) {
+
+
+
+
   return (
+
+
     <Center py={6}>
       <Box
         maxW={'320px'}
@@ -25,7 +31,7 @@ export default function ProjectCard(props) {
         <Avatar
           size={'xl'}
           src={
-            'https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ'
+                     props.image
           }
           alt={'Avatar Alt'}
           mb={4}
@@ -43,20 +49,18 @@ export default function ProjectCard(props) {
           }}
         />
         <Heading fontSize={'2xl'} fontFamily={'body'}>
-          Lindsey James
+          {props.name}
         </Heading>
         <Text fontWeight={600} color={'gray.500'} mb={4}>
-          @lindsey_jam3s
+          {props.username}
         </Text>
         <Text
           textAlign={'center'}
           color={useColorModeValue('gray.700', 'gray.400')}
           px={3}>
-          Actress, musician, songwriter and artist. PM for work inquires or{' '}
-          <Link href={'#'} color={'blue.400'}>
-            #tag
-          </Link>{' '}
-          me in your posts
+
+          {props.description}
+
         </Text>
 
         <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
@@ -65,21 +69,21 @@ export default function ProjectCard(props) {
             py={1}
             bg={useColorModeValue('gray.50', 'gray.800')}
             fontWeight={'400'}>
-            #art
+            {props.tag1}
           </Badge>
           <Badge
             px={2}
             py={1}
             bg={useColorModeValue('gray.50', 'gray.800')}
             fontWeight={'400'}>
-            #photography
+            {props.tag2}
           </Badge>
           <Badge
             px={2}
             py={1}
             bg={useColorModeValue('gray.50', 'gray.800')}
             fontWeight={'400'}>
-            #music
+            {props.tag3}
           </Badge>
         </Stack>
 
@@ -91,7 +95,7 @@ export default function ProjectCard(props) {
             _focus={{
               bg: 'gray.200',
             }}>
-            Message
+            <Link href={props.projlink}>Preview</Link>
           </Button>
           <Button
             flex={1}
@@ -108,7 +112,7 @@ export default function ProjectCard(props) {
             _focus={{
               bg: 'blue.500',
             }}>
-            Follow
+            <Link href={props.github}>Github</Link>
           </Button>
         </Stack>
       </Box>

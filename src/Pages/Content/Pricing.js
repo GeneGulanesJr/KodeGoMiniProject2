@@ -59,7 +59,7 @@ export default function Pricing() {
                         bg={useColorModeValue('gray.50', 'gray.700')}
                         py={4}
                         borderBottomRadius={'xl'}>
-                        <List spacing={3} textAlign="start" px={12}>
+                        <List spacing={3} textAlign="start" px={25}>
                             <ListItem>
                                 <ListIcon as={FaCheckCircle} color="green.500" />
                                 Expand your team as required.
@@ -133,7 +133,7 @@ export default function Pricing() {
                 <PriceWrapper>
                     <Box py={4} px={12}>
                         <Text fontWeight="500" fontSize="2xl">
-                            Staff Augmentation
+                            Consultation
                         </Text>
 
 
@@ -142,7 +142,7 @@ export default function Pricing() {
                       bg={useColorModeValue('gray.50', 'gray.700')}
                       py={4}
                       borderBottomRadius={'xl'}>
-                        <List spacing={3} textAlign="start" px={12}>
+                        <List spacing={3} textAlign="start" px={25}>
                             <ListItem>
                                 <ListIcon as={FaCheckCircle} color="green.500" />
                                 Business Analysis

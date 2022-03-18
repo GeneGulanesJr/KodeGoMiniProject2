@@ -2,7 +2,7 @@ import {
   Box,
   Button,
   Flex,
-  FormControl,
+  FormControl, FormErrorMessage, FormHelperText,
   FormLabel,
   Heading,
   IconButton,
@@ -17,7 +17,7 @@ import {
   useColorModeValue,
   VStack,
 } from '@chakra-ui/react';
-import React from 'react';
+import React, { useState } from 'react';
 import { BsGithub, BsLinkedin, BsPerson, BsTwitter } from 'react-icons/bs';
 import { MdEmail, MdOutlineEmail } from 'react-icons/md';
 
@@ -38,6 +38,11 @@ const CONFETTI_DARK = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2
 
 export default function ContactFormWithSocialButtons() {
   const { hasCopied, onCopy } = useClipboard('example@example.com');
+  const [input, setInput] = useState('dummy@gmail.com')
+
+  const handleInputChange = (e) => setInput(e.target.value)
+
+  const isError = input === ''
 
   return (
     <Flex
@@ -149,17 +154,23 @@ export default function ContactFormWithSocialButtons() {
                     </InputGroup>
                   </FormControl>
 
-                  <FormControl isRequired>
-                    <FormLabel>Email</FormLabel>
-
+                  <FormControl isInvalid={isError}>
+                    <FormLabel htmlFor='email'>Email</FormLabel>
                     <InputGroup>
-                      <InputLeftElement children={<MdOutlineEmail />} />
-                      <Input
-                        type="email"
-                        name="email"
-                        placeholder="Your Email"
-                      />
-                    </InputGroup>
+                    <InputLeftElement children={<MdOutlineEmail />} />
+                    <Input
+                      id='email'
+                      type='email'
+                      value={input}
+                      onChange={handleInputChange}
+                    /></InputGroup>
+                    {!isError ? (
+                      <FormHelperText>
+                        Enter the email you'd like to receive the newsletter on.
+                      </FormHelperText>
+                    ) : (
+                      <FormErrorMessage>Email is required.</FormErrorMessage>
+                    )}
                   </FormControl>
 
                   <FormControl isRequired>
@@ -171,6 +182,8 @@ export default function ContactFormWithSocialButtons() {
                       rows={6}
                       resize="none"
                     />
+
+
                   </FormControl>
 
                   <Button
@@ -181,7 +194,7 @@ export default function ContactFormWithSocialButtons() {
                       bg: 'blue.500',
                     }}
                     isFullWidth>
-                    Send Message
+                    <a href="mailto:gulanesgene@gmail.com">Send Message</a>
                   </Button>
                 </VStack>
               </Box>

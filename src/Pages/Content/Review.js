@@ -22,7 +22,7 @@ const testimonials = [
         name: 'Krysta B.',
         role: 'Entrepreneur',
         content:
-            "I didn't even need training. We've used EEZY for the last five years. I have gotten at least 50 times the value from EEZY. I made back the purchase price in just 48 hours!",
+            " I had always wanted to build my own website for my online business but didn't have the time nor the knowledge to do it. Thankfully GPS was such a great help to finally set up my much needed website. Now I can cater to more people in real time and a more easier way for me to introduce my products to a larger number of people. Thank you.",
         avatar:
             'https://images.unsplash.com/photo-1598550874175-4d0ef436c909?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80',
     },
@@ -30,7 +30,7 @@ const testimonials = [
         name: 'Darcy L.',
         role: 'Movie star',
         content:
-            "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, EEZY is the coolest, most happening thing around! I love EEZY!",
+            "I've been running my business since the start of the pandemic and I could say it never had been easy. Good thing there are people from GPS that are helping me lift some burden on my back, especially regarding Business Analysis. I always get on time reports, analysis and latest trends about costumer preference and feedback which is very helpful. I don't know how they do it but they get things done. Keep it up.",
         avatar:
             'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80',
     },

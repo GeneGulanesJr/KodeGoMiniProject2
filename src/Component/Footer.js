@@ -51,9 +51,9 @@ export default function Footer() {
                     <Stack align={'flex-start'}>
                         <ListHeader>Company</ListHeader>
                         <Link href={'#'}>About Us</Link>
-                        <Link href={'#'}>Press</Link>
-                        <Link href={'#'}>Careers</Link>
-                        <Link href={'#'}>Contact Us</Link>
+
+                        <Link href={'joinus'}>Careers</Link>
+
 
                     </Stack>
                     <Stack align={'flex-start'}>
@@ -91,7 +91,7 @@ export default function Footer() {
                         flexGrow: 1,
                         ml: 8,
                     }}>
-                    <Logo />
+                
                 </Flex>
                 <Text pt={6} fontSize={'sm'} textAlign={'center'}>
                     © 2020 Chakra Templates. All rights reserved
