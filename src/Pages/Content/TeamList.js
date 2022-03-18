@@ -240,10 +240,8 @@ const TeamList = () => {
                   <Link href={'https://github.com/Onaneehsyu'}><FiGithub /> </Link>
                 </Button>
 
-                <Button w={'small'} variant={'outline'} leftIcon={<FiFileText />}>
-                  <Center>
-
-                  </Center>
+                <Button w={'small'} variant={'outline' }>
+                  <Link href={'https://onaneehsyu.github.io/ePortfolio.html'}><FiFileText /> </Link>
                 </Button>
               </HStack>
             </Center>
