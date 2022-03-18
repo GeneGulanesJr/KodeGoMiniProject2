@@ -94,7 +94,7 @@ export default function ContactFormWithSocialButtons() {
                   />
                 </Tooltip>
 
-                <Link href="#">
+                <Link href="https://github.com/GeneGulanesJr">
                   <IconButton
                     aria-label="github"
                     variant="ghost"
@@ -109,7 +109,7 @@ export default function ContactFormWithSocialButtons() {
                   />
                 </Link>
 
-                <Link href="#">
+                <Link href="https://twitter.com/MPGH5574">
                   <IconButton
                     aria-label="twitter"
                     variant="ghost"
@@ -123,7 +123,7 @@ export default function ContactFormWithSocialButtons() {
                   />
                 </Link>
 
-                <Link href="#">
+                <Link href="https://www.linkedin.com/in/gene-gulanes-748a22213/">
                   <IconButton
                     aria-label="linkedin"
                     variant="ghost"

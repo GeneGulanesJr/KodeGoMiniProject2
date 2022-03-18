@@ -162,7 +162,7 @@ const TeamList = () => {
             <BlogTags tags={['FrontEnd', 'UI/UX Design']} marginTop='3' />
             <Heading fontSize='xl' marginTop='2'>
               <Link textDecoration='none' _hover={{ textDecoration: 'none' }}>
-              Pam Astorga
+                Pam Astorga
               </Link>
             </Heading>
             <Text as='p' fontSize='md' marginTop='2'>
@@ -173,7 +173,7 @@ const TeamList = () => {
             <Center p={8}>
               <HStack spacing={2} align={'center'} maxW={'md'} w={'small'}>
 
-                <Button w={'small'} colorScheme={'facebook'} >
+                <Button w={'small'} colorScheme={'facebook'}>
                   <Link href={'https://www.facebook.com/pamelaamor'}><FaFacebook /></Link>
                 </Button>
 
@@ -182,11 +182,11 @@ const TeamList = () => {
                 </Button>
 
                 {/* Messenger */}
-                <Button w={'small'} variant={'outline'} >
+                <Button w={'small'} variant={'outline'}>
                   <Link href={'https://github.com/pam-astorga'}><FiGithub /></Link>
                 </Button>
 
-                <Button w={'small'} variant={'outline'} >
+                <Button w={'small'} variant={'outline'}>
                   <Link href={'https://pam-astorga.github.io/eportfolio/'}><FiFileText /></Link>
                 </Button>
               </HStack>
@@ -219,27 +219,24 @@ const TeamList = () => {
               </Link>
             </Heading>
             <Text as='p' fontSize='md' marginTop='2'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I am a positive, enthusiastic and competent Web Developer who, over the years, has built up a diverse
+              range of skills, qualities and attributes that guarantee I will perform highly in this role.
             </Text>
             <Center p={8}>
               <HStack spacing={2} align={'center'} maxW={'md'} w={'small'}>
                 {/* Facebook */}
-                <Button w={'small'} colorScheme={'facebook'} >
+                <Button w={'small'} colorScheme={'facebook'}>
                   <Link href={'https://www.facebook.com/cyrilsheen.durens'}><FaFacebook /> </Link>
                 </Button>
 
 
-
                 {/* LinkedIn */}
-                <Button w={'small'} colorScheme={'messenger'} >
+                <Button w={'small'} colorScheme={'messenger'}>
                   <Link href={'https://www.facebook.com/cyrilsheen.durens'}><SiLinkedin /> </Link>
                 </Button>
 
                 {/* Messenger */}
-                <Button w={'small'} variant={'outline'} >
+                <Button w={'small'} variant={'outline'}>
                   <Link href={'https://github.com/Onaneehsyu'}><FiGithub /> </Link>
                 </Button>
 
@@ -278,13 +275,13 @@ const TeamList = () => {
               </Link>
             </Heading>
             <Text as='p' fontSize='md' marginTop='2'>
-         Join Now
+              Join Now
             </Text>
             <Center p={4}>
               <HStack spacing={2} align={'center'} maxW={'md'} w={'small'}>
 
 
-                <Button w={'small'} variant={'outline'} >
+                <Button w={'small'} variant={'outline'}>
                   <Link href={'joinus'}>Join</Link>
                 </Button>
 
