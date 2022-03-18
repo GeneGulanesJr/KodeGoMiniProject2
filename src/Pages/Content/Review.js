@@ -38,7 +38,7 @@ const testimonials = [
         name: 'Daniel T.',
         role: 'Musician',
         content:
-            'I am so pleased with this product. EEZY is both attractive and highly adaptable. Without EEZY, we would have gone bankrupt by now. Thank you for creating this product!',
+            'Me and my business partners have always had trouble recruiting people into the team because we have a relatively small office space and the restrictions set by the government due to the pandemic has made it worse. So we set our eyes hiring people online and one of my business partners heard about GPS. I made some research about them and I could say we made the best decision trusting (company name) to help us with our problems. Now we receive hundreds upon hundreds of applications daily and we get a filtered list of the most qualified applicants based on our set requirements. Thank you GPS and more power.',
         avatar:
             'https://images.unsplash.com/photo-1606513542745-97629752a13b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80',
     },
