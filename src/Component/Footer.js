@@ -94,7 +94,7 @@ export default function Footer() {
                 
                 </Flex>
                 <Text pt={6} fontSize={'sm'} textAlign={'center'}>
-                    © 2020 Chakra Templates. All rights reserved
+                    © 2020 Team GPS. All rights reserved
                 </Text>
             </Box>
         </Box>

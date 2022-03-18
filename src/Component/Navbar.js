@@ -279,7 +279,7 @@ const NAV_ITEMS: Array<NavItem> = [
         ],
     },
     {
-        label: 'Opening',
+        label: 'Join Us',
         children: [
             {
                 label: 'Hiring',
